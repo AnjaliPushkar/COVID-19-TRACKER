@@ -13,3 +13,6 @@ def home(request):
 
 def blog(request):
     return render(request, 'blog.html')
+
+def checkup(request):
+    return render(request, 'checkup.html')

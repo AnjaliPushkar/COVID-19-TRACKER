@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,8 +23,11 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item {% block blogactive %} {% endblock blogactive %}">
+            <li class="nav-item ">
               <a class="nav-link" href="{% url 'blog' %}">Blog <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'checkup' %}">ChechUp <span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
