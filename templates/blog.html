@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Corona</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+        <a class="navbar-brand" href="{% url 'home' %}">Corona-Virus</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item {% block blogactive %} {% endblock blogactive %}">
+              <a class="nav-link" href="{% url 'blog' %}">Blog <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="blog-section">
+        <h1 >Blog and News related to Covid-19.</h1>
+    </div>
+
+      <div class="container my-3">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <div style="clear: right">
+              <img src="{% static '1.jpg' %}" align=”right” width="1100px" height="500px"/>
+            </div>
+
+            <h3 class="mb-0">India in the Age of Coronavirus: a Global Time Bomb?</h3>
+            <div class="mb-1 ">c</div>
+              <p class="mb-auto">The epidemic hit India late, with only very few cases officially reported till mid-March – although the first cases had already been revealed in January. This delay was partly due to the lack of a large-scale screening campaign: only people arriving from at-risk countries were tested.
+                This decision was explained in a surprisingly candid manner by officials from the Indian Council of Medical Research (ICMR). To them, it was preferable not to test more people because India neither had enough test kits to conduct a real screening campaign, nor the hospital infrastructure to accommodate patients who would have been identified.</p>
+              <strong class="d-inline-block mb-2 text-danger">by : Christophe Jaffrelot</strong>
+            </div>
+          <div class="col-auto d-none d-lg-block">
+        </div>
+      </div>
+
+      <div class="container my-3">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                  <div style="clear: right">
+                      <img src="{% static 'images.jpg' %}" align=”right” width="1100px" height="500px"/>
+                  </div>
+                <h3 class="mb-0">How doctors, nurses in India are treating Coronavirus patients amid lack of protective gears</h3>
+                <div class="mb-1 ">c</div>
+                  <p class="mb-auto">Doctors are in the frontline of the battle against coronavirus pandemic which has now affected close to 5,000 in India and has claimed 149 lives. With reports of para-medical staff and doctors getting infected by coronavirus coming into the light, the focus has now shifted to these brave souls.Covid 19 is highly infectious and thus to treat the patients, doctors and para-medical staff has to wear Personal Protection Equipment or PPE which comprises of protective clothing, goggles, gloves etc. But these are in short supply and expensive (Rs 1,000 to Rs 2,000 a set) and healthcare workers are under pressure to conserve resources, reported Times of India.The protective gears have to be discarded after one use. With staff shortage and short supply of PPEs, many doctors and nurses are now resorting to non-stop work for 6-7 hours in one go, without any breaks. Many nurses and doctors have been complaining of fatigue, dehydration and headaches due to the gruelling schedule, reported ToI.</p>
+                  <strong class="d-inline-block mb-2 text-danger">by : ET Online</strong>
+                </div>
+              <div class="col-auto d-none d-lg-block">
+          </div>
+      </div>
+    </div>
+  </body>
+  </html>
+  <style>
+    body{
+      background-color: PowderBlue 	;
+      /* text-color : blue-gray; */
+    } */
+    .blog-section h1{
+      text-align: center;
+    }
+    .navbar{
+      background-color: Sienna;
+    }
+    .container {
+      background-color : white;
+    }
+  </style>
