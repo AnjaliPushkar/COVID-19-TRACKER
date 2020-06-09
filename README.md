@@ -17,16 +17,15 @@ In this website, we will get the live data of corona affected humans in India. T
 
 1. Python 3
 2. install dependency:
-    `pip install django==3.0`
+*    `pip install django==3.0`
 3. move in your project folder and run the commands given below:
-    `python manage.py makemigrations`
-    `python manage.py migrate`
-    `python manage.py runserver`
+*    `python manage.py makemigrations`
+*    `python manage.py migrate`
+*    `python manage.py runserver`
 
 ## Screenshots of Web Application
 
-![test](/lasthope/static/corona4){:height="24px" width="48px"}
-![](/lasthope/static/corona1.PNG)
+![very good|512x397,20%](/lasthope/static/corona1.PNG)
 ![](/lasthope/static/corona2.PNG)
 ![](/lasthope/static/corona3.PNG)
 ![](/lasthope/static/corona44.PNG)
