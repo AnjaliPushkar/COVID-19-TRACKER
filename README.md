@@ -25,7 +25,7 @@ In this website, we will get the live data of corona affected humans in India. T
 
 ## Screenshots of Web Application
 
-![](/lasthope/static/corona1.PNG)
+![](/lasthope/static/corona1.PNG){:height="400px" width="700px"}
 ![](/lasthope/static/corona2.PNG)
 ![](/lasthope/static/corona3.PNG)
 ![](/lasthope/static/corona44.PNG)
