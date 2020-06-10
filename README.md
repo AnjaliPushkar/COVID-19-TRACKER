@@ -25,7 +25,66 @@ In this website, we will get the live data of corona affected humans in India. T
 
 ## Screenshots of Web Application
 
-![](/lasthope/static/Capture1.PNG)
+
+<table align="center">
+	<tr>
+		<td>
+			Login Page
+		</td>
+		<td>
+			Home Page
+		</td>
+ </tr>
+ <tr>
+ 	<td>
+   	<img src="/images/webserver/2.PNG" height="180" width="350">
+		</td>
+		<td><img src="/images/webserver/3.PNG" height="180" width="350">
+		</td>
+ </tr>
+ <tr>
+ <td>
+			Create Entry Page
+		</td>
+		<td>
+			Drip Status Page
+		</td>
+	</tr>
+	<tr>
+		<td><img src="/lasthope/static/Capture1.PNG" height="180" width="350">
+		</td>
+		<td><img src="/lasthope/static/Capture2.PNG" height="180" width="350">
+		</td>
+	</tr>
+<tr>
+ <td>
+			Delete Page
+		</td>
+		<td>
+			Unsuccessful Discharge Page
+		</td>
+	</tr>
+	<tr>
+		<td><img src="/lasthope/static/Capture3.PNG" height="180" width="350">
+		</td>
+		<td><img src="/lasthope/static/Capture.PNG" height="180" width="350">
+		</td>
+	</tr>
+<tr>
+ <td> 	              Successful Discharge Page
+		</td>
+	</tr>
+	<tr>
+		<td><img src="/images/webserver/8.png" height="180" width="350">
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+<!-- ![](/lasthope/static/Capture1.PNG)
 ![](/lasthope/static/Capture2.PNG)
 ![](/lasthope/static/Capture3.PNG)
 ![](/lasthope/static/Capture.PNG)
@@ -34,4 +93,4 @@ In this website, we will get the live data of corona affected humans in India. T
 ![very good|512x397,20%](/lasthope/static/corona1.PNG)
 ![](/lasthope/static/corona2.PNG)
 ![](/lasthope/static/corona3.PNG)
-![](/lasthope/static/corona44.PNG)
+![](/lasthope/static/corona44.PNG) -->
