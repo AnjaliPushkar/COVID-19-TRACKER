@@ -29,25 +29,20 @@ In this website, we will get the live data of corona affected humans in India. T
 <table align="center">
 
  <tr>
- 	<td>
-   	<img src="/images/webserver/2.PNG" height="180" width="350">
-		</td>
-		<td><img src="/images/webserver/3.PNG" height="180" width="350">
-		</td>
- </tr>
- <tr>
- <td>
+    <td>
 			Corona Live Data
 		</td>
 		<td>
 			Blogs or News
 		</td>
-	</tr>
-	<tr>
-		<td><img src="/lasthope/static/Capture1.PNG" height="180" width="350">
-		</td>
-		<td><img src="/lasthope/static/Capture2.PNG" height="180" width="350">
-		</td>
+</tr>
+<tr>
+	<td>
+    <img src="/lasthope/static/Capture1.PNG" height="180" width="350">
+	</td>
+	<td>
+    <img src="/lasthope/static/Capture2.PNG" height="180" width="350">
+	</td>
 	</tr>
 <tr>
  <td>
