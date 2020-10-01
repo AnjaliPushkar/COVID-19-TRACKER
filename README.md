@@ -2,7 +2,7 @@
 
 ## Working and Features
 
-In this website, we will get the live data of corona affected humans in India. This data is shown using the Api. This site shows the number of confirmed cases, number of recovered cases and number of death cases in the state as well as in the cities. It also shows about the containment zones. Then there is another slide of named blog in which news or important instructions related to covid-19 would be shown. And the other feature is test, in which there is a small question and answer round through which you would be roughly know about the chance of virus in you.
+In this website, we will get the live data of corona affected humans in India. The data is displayed using the API. This site shows the number of confirmed cases, number of recovered cases, and number of death cases in the state as well as in the cities. It also shows the containment zones. There is another slide of a named blog in which news and important instructions related to COVID-19 will be displayed. The other feature is the test, in which there are a small question and answer round through which you would roughly know about the chance of virus in you.
 
 ## Technology Stack
 
