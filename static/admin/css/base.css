@@ -456,6 +456,15 @@ select[multiple] {
     color: #fff;
     cursor: pointer;
 }
+.button, input[type=submit], input[type=button], .submit-row input, a.button:hover {
+    bacground:none;
+    background: #79aec8;
+    padding: 10px 15px;
+    border:2px solid black;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
 
 a.button {
     padding: 4px 5px;
